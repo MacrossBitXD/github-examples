@@ -64,6 +64,10 @@ Por ultimo testea la conexion con el siguente comando:
 ssh -T git@github.com
 ```
 
+##### GLI
+
+Por ultimo es la Ultima forma de usar github
+
 #### Commits
 
 Cuando quieres hacer un commit de tu codigo puedes escribir `git commit`
@@ -94,6 +98,23 @@ git config --global core.editor <name-your-editor> #Para vscode usa "code --wait
 
 #### Branches
 
+Enlista las ramas de tu proyecto con el siguente comando:
+
+```bash
+git branch
+```
+
+Para crear una rama usas el siguente comando:
+
+```bash
+git branch <name-branch>
+```
+
+Para cambiar de una rama a otra usas el siguiente comando:
+
+```bash
+git checkout <name-brach-to-move>
+```
 
 #### Remote
 
