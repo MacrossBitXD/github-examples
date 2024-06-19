@@ -28,7 +28,41 @@ Nosotros podemos clonar un repositorio de 3 formas: HTTPS, SSH y CLI de Github
 git clone https https://github.com/MacrossBitXD/github-examples.git
 cd github-examples
 ```
+> Si necesitas acceder a un repositorio, del cual no eres propietario
+> puedes pedirle al propietario que te genere un token de acceso con sus
+> respectivos permisos, eso el lo puede hacer [aquí](https://github.com/settings/token?type=beta)
+> o tu simplemente puedes hacer un PR
 
+Por Ultimo, recordad que si ingresas con un token personal, debes ingresar
+ese token cuando te pidan tu contraseña de github
+
+##### SSH
+
+```bash
+git clone git@github.com:MacrossBitXD/github-examples git
+cd github-examples
+```
+
+Tu necesitas crear tu propia clave SSH, y añadir tu llave publica en
+[github](https://github.com/settings/keys). La generas con el siguente comando:
+
+```bash
+ssh-keygen -t rsa #RSA es el algotirmo de encriptación
+```
+
+Recuerda tambien añadir
+la privada a tu pc con el comando:
+
+```bash
+eval 'ssh-agent -s'
+ssh-add <path-private-key>
+```
+
+Por ultimo testea la conexion con el siguente comando:
+
+```bash
+ssh -T git@github.com
+```
 
 #### Commits
 
