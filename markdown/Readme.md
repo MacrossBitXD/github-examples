@@ -15,6 +15,7 @@ Tratare de cubrir los siguientes temas en este markdown
 - [Barra de separación](#barra-de-separación)
 - [Checklist](#checklist)
 - [Emojis](#emojis)
+- [Subindices y Superindices](#subindices-y-superindices)
 
 ## Cabeceras
 
