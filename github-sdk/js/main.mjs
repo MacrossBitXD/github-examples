@@ -1,13 +1,13 @@
-import {Octokit, App} from "octokit";
+const { Octokit, App } = require("octokit");
+import { PERSONAL_TOKEN } from "../../config.mjs";
 // Octokit.js
 // https://github.com/octokit/core.js#readme
 
-const config = require('../..config.js');
 const octokit = new Octokit({
-    auth: config.PERSONAL_TOKEN
+    auth: PERSONAL_TOKEN
   })
   
-  await octokit.request('POST /repos/{owner}/{repo}/git/refs', {
+  octokit.request('POST /repos/{owner}/{repo}/git/refs', {
     owner: 'MacrossBitXD',
     repo: 'github-examples',
     ref: 'refs/heads/sdksjs',
