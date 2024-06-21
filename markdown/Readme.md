@@ -235,6 +235,8 @@ Feliz :smile: `:smile:` <br>
 Dormido :sleeping: `:sleeping:` <br>
 Furioso :rage: `:rage:` <br>
 
+Aquí tienes la [lista completa de los emojis](https://gist.github.com/rxaviers/7360908).
+
 ## Subindices y Superindices
 
 Para añadir subindices o superindices debes utilizar ~ o ^ respectivamente entre el texto a modificar
